@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import img from '../images/hamburger.png'
 import { useDispatch, useSelector } from 'react-redux'
 import { toggleMenu } from '../utils/appSlice';
 import { YOUTUBE_SEARCH_API } from '../utils/constants';

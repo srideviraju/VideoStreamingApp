@@ -15,7 +15,8 @@ getVideos();
     }
   return (
     <div className='flex flex-wrap'>
-    { videos[0] &&   <AdvideoCard info={videos[0]}/>}
+    
+    {/* { videos[0] &&   <AdvideoCard info={videos[0]}/>} */}
         {videos.map(video =>(
        <Link to={'/watch?v='+video.id} key={video.id}>  <VideoCard info={video} />   </Link>))}
 
